@@ -1,4 +1,76 @@
 /* Style for the main content of the website */
+body {
+	font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	letter-spacing: .1em;
+}
+
 .content {
 	box-shadow: 0px 0px 10px black;
+}
+
+.intro-pic {
+	/*background-color: black;*/
+	height: 200px;
+}
+.intro-pic  .img-responsive {
+    display: block;
+    width: auto;
+    max-height: 100%;
+}
+.intro-text {
+
+}
+
+#main-nav {
+	margin-top: 20px;
+}
+#name-title {
+	color: #777777;
+	font-size: 13px;
+	letter-spacing: .15em;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+#name-title:hover {
+	color: #333333;
+}
+#navlist ul {
+	list-style-type: none;
+}
+#navlist ul li {
+	display: inline;
+}
+#navlist ul li a {
+	text-decoration: none;
+	padding: 10px;
+	font-size: 13px;
+    letter-spacing: .15em;
+	color: #777777;
+	text-transform: uppercase;
+}
+#navlist ul li a:hover {
+	color: #333333;
+}
+
+.jumbotron-arttech {
+    position: relative;
+    background: #000 url("../Images/art-tech2.jpg") center center;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    overflow: hidden;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+#jumbo-text {
+	color: white;
+	text-shadow: 0 0 5px #000000;
+	font-weight: 300;
+	padding-left: 12px;
+	padding-right: 12px;
+}
+
+.interest-pic {
+	height: 150px;
+	width: 150px;
 }
