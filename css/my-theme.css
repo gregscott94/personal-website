@@ -17,9 +17,6 @@ body {
     width: auto;
     max-height: 100%;
 }
-.intro-text {
-
-}
 
 #main-nav {
 	margin-top: 20px;
@@ -77,4 +74,10 @@ body {
 
 .extra-text {
 	margin-top: -10px;
+}
+
+.linebreak {
+	max-width: 66%;
+	border-top: 1px solid #cccccc;
+	margin-top: 20px;
 }
